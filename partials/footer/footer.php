@@ -1,6 +1,6 @@
 <div class="footer-wrap">
     <div>
-      <a href="https://webflow.com/" target="_blank" class="webflow-link w-inline-block"><img src="images/webflow-w-small2x_1webflow-w-small2x.png" width="15" alt="" class="webflow-logo-tiny">
+      <a href="https://webflow.com/" target="_blank" class="webflow-link w-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/images/webflow-w-small2x_1webflow-w-small@2x.png" width="15" alt="" class="webflow-logo-tiny">
         <div class="paragraph-tiny">Powered by Webflow</div>
       </a>
     </div>

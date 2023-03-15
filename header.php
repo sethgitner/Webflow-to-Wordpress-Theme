@@ -51,8 +51,8 @@
   
 
   
-  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
-  <link href="images/webclip.png" rel="apple-touch-icon">
+  <link href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="<?php echo get_template_directory_uri(); ?>/images/webclip.png" rel="apple-touch-icon">
   
 <!-- WEBFLOW ASSETS FOR HEADER Above  -->
 

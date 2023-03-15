@@ -1,8 +1,13 @@
 <?php
 /**
- * The template for displaying all single posts
+ * The template for displaying all pages
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site may use a
+ * different template.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package wftowptheme
  */
@@ -11,12 +16,8 @@ get_header();
 ?>
 
 	<main id="primary" class="site-main">
-		
-  <div class="s-content">
-    <div class="c-content">
-	    <div class="d-contentarea">
-	    
-	    		 <?php if( have_posts() ): 
+
+		 <?php if( have_posts() ): 
                     while( have_posts() ): the_post(); ?>
 
 
@@ -26,18 +27,10 @@ get_header();
                     endwhile;
                 endif;
 
-	    
-	    </div>
-	    
-    </div>
-  </div>
-
-
-
                 ?>
                 
 	</main><!-- #main -->
 
 <?php
-
+//get_sidebar();
 get_footer();
